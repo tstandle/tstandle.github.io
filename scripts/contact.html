@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<html lang="en">
+    <title>Contact Tucker</title>
+	<meta charset="utf-8" />
+<head>
+<link rel="stylesheet" href="/tstandle/scripts/main.css">
+</head>
+    
+<body>
+    <!-- begin content container -->
+<div id="content"> 
+    
+<header>
+    
+<!-- Begin Navigation -->
+<nav>
+<ul id="menu-items">
+
+
+<li><a class="active">Contact</a></li>
+<li><a href="resume.html">Resume</a></li>
+<li><a href="testimonials.html">Testimonials</a></li>
+<li><a href="about.html">About</a></li>   
+<li><a href="index.html">Portfolio</a></li>
+</ul>
+</nav>
+<!-- End Navigation -->
+
+    
+<img src="/tstandle/images/lake-tapps-banner.png" style="float: right; padding-right: 14px"/>    
+    
+<div class="logo">Tucker Standlee</div>
+    
+</header>
+
+<div id="main">
+<section>
+
+<h1>
+    Contact Me
+    </h1>
+    
+<section style="margin-top: 50px;">
+		<h2>
+			Note: all fields are required. Thank you!
+		</h2>
+<!-- Begin Contact Form -->
+<!-- you can "style" this form by changing colors, type, etc -->
+<form method="post" name="contactform" action="contact-form-handler.php">
+			<label for="name">Your name:</label> 
+			<input name="name" type="text" required="required">
+			<br />
+			<label for="email">Your email:</label> 
+			<input name="email" type="email" required="required">
+			<br />
+			<label for="message">Message:</label> <br />
+			<textarea name="message" cols="80" rows="10" required="required"></textarea>
+			<br />
+			<input name="submit" type="submit" value="Send your message!">
+		</form>
+
+
+<script language="JavaScript">
+	// Code for validating the form
+	// Visit http://www.javascript-coder.com/html-form/javascript-form-validation.phtml
+	// for details
+	var frmvalidator  = new Validator("contactform");
+	frmvalidator.addValidation("name","req","Please provide your name"); 
+	frmvalidator.addValidation("email","req","Please provide your email"); 
+	frmvalidator.addValidation("email","email","Please enter a valid email address"); 
+</script>
+</section> 
+</div>    
+
+
+<!-- Begin Footer -->
+<footer>
+<p class="footerText"> ©2018 Tucker Standlee. All rights reserved.</p>
+</footer>
+<!-- */End Footer -->
+    
+</div>
+<!-- */End Content Container -->
+
+</body>
+</html>

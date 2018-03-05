@@ -1,0 +1,29 @@
+body {
+	font-family: sans serif;
+	font-size: 1em;
+    background-color:darkblue;
+	}
+
+#content {
+	width: 940px;
+	margin: 0 auto;
+	padding: 0 20px;
+}
+	
+#main {
+    background-color: #fff;
+    padding: 0 20px;
+}
+
+footer {
+    width: 940px;
+	margin: 0;
+	padding: 0px;
+	background-color: #000;
+}
+
+.footerText {
+    color: #fff;
+    padding: 20px;
+    margin: 20px;
+}

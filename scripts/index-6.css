@@ -1,0 +1,39 @@
+body {
+	font-family: sans serif;
+	font-size: 1em;
+    background-color:#FFCEA0;
+	}
+
+#content {
+	width: 940px;
+	margin: 0 auto;
+	padding: 0 20px;
+}
+	
+#main {
+    background-color: #fff;
+    padding: 0 20px;
+}
+
+footer {
+    width: 940px;
+	margin: 0;
+	padding: 0px;
+    align-content: center;
+	background-color: #191006;
+}
+
+.footerText {
+    color: #FFF6EC;
+    align-content: center;
+    padding: 20px;
+    margin: 20px;
+}
+
+header {
+    width: 940px;
+    height: 230px;
+	margin: 0;
+	padding: 0px;
+	background-color: #FE9C3F;
+}
