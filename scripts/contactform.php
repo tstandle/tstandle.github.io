@@ -13,7 +13,7 @@ $formproc = new FGContactForm();
 
 //1. Add your email address here.
 //You can add more than one receipients.
-$formproc->AddRecipient('tests@html-form-guide.com'); //<<---Put your email address here
+$formproc->AddRecipient('tucker.standlee@gmail.com'); //<<---Put your email address here
 
 
 //2. For better security. Get a random tring from this link: http://tinyurl.com/randstr
@@ -43,7 +43,7 @@ if(isset($_POST['submitted']))
 <!-- Form Code Start -->
 <form id='contactus' action='<?php echo $formproc->GetSelfScript(); ?>' method='post' accept-charset='UTF-8'>
 <fieldset >
-<legend>Contact us</legend>
+<legend>Contact Me</legend>
 
 <input type='hidden' name='submitted' id='submitted' value='1'/>
 <input type='hidden' name='<?php echo $formproc->GetFormIDInputName(); ?>' value='<?php echo $formproc->GetFormIDInputValue(); ?>'/>
