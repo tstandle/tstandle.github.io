@@ -4,7 +4,7 @@
     <title>Contact Tucker</title>
 	<meta charset="utf-8" />
 <head>
-<link rel="stylesheet" href="/scripts/main.css">
+<link rel="stylesheet" href="/tstandle/scripts/main.css">
 </head>
     
 <body>
@@ -27,7 +27,7 @@
 <!-- End Navigation -->
 
     
-<img src="/images/lake-tapps-banner.png" style="float: right; padding-right: 14px"/>    
+<img src="/tstandle/images/hawks.png" class="header-image";/>    
     
 <div class="logo">Tucker Standlee</div>
     
@@ -39,6 +39,7 @@
 <h1>
     Contact Me
     </h1>
+<p>Feel free to reach out and send me a message and I will be sure to respond as soon as I can.</p>
     
 <section style="margin-top: 50px;">
 		<h2>
@@ -46,18 +47,22 @@
 		</h2>
 <!-- Begin Contact Form -->
 <!-- you can "style" this form by changing colors, type, etc -->
-<form method="post" name="contactform" action="contact-form-handler.php">
-			<label sylte="margin-bottom: 5 px;" for="name">Your name:</label> 
+		<form method="post" name="contactform" action="/tstandle/contact-form-handler.php">
+			<label for="name">Your name:</label> 
 			<input name="name" type="text" required="required">
 			<br />
+            <br>
 			<label for="email">Your email:</label> 
 			<input name="email" type="email" required="required">
 			<br />
+            <br>
 			<label for="message">Message:</label> <br />
 			<textarea name="message" cols="80" rows="10" required="required"></textarea>
 			<br />
-			<input name="submit" type="submit" value="Send your message!">
+            <br>
+			<input class="button" name="submit" type="submit" value="Send your message!">
 		</form>
+<!-- End Contact Form -->
 
 
 <script language="JavaScript">
